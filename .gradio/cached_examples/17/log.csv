@@ -1,0 +1,21 @@
+Quality Score (0-1),Analysis Report,Enhanced README,timestamp
+0.26252439251482484,"'
+README Quality Analysis Report
+----------------------------
+
+Component Scores:
+- Documentation Structure: 0.17/0.30
+- Code-Documentation Alignment: 0.00/0.30
+- Semantic Quality: 0.10/0.40
+
+Missing Sections:
+- Add api section - completely missing or inadequate
+- Enhance dependencies section with more detailed information
+- Improve alignment between documentation and code examples
+
+Code Improvement Suggestions:
+- Add more detailed documentation for code files
+- Include usage examples for each major component
+- Add API documentation
+- Consider adding inline code comments
+","{'sections': {'code_examples': '# Code Examples\n\n## Basic Example\n```python\nimport package\n\n# Initialize\nmodel = package.Model()\n\n# Basic usage\nresult = model.process(data)\n```\n\n## Advanced Examples\n\n### Custom Configuration\n```python\nconfig = package.Config(\n    learning_rate=0.01,\n    batch_size=32\n)\nmodel = package.Model(config)\n```\n\n### Data Processing\n```python\n# Load and preprocess data\ndata = package.load_data(""data.csv"")\nprocessed = package.preprocess(data)\n\n# Train model\nmodel.train(processed)\n```\n\nFor more examples, check the examples/ directory.\n'}, 'metrics': {'structure_score': 0.1652818345123529, 'code_alignment_score': 0.0, 'semantic_score': 0.09724255800247193, 'total_score': 0.26252439251482484, 'missing_sections': ['Add api section - completely missing or inadequate', 'Enhance dependencies section with more detailed information', 'Improve alignment between documentation and code examples'], 'code_suggestions': ['Add more detailed documentation for code files', 'Include usage examples for each major component', 'Add API documentation', 'Consider adding inline code comments']}}",2024-12-01 12:17:18.804240

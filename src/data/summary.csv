@@ -1,0 +1,85 @@
+name,stars,language,has_readme,search_query,url,is_library
+Augmentor,5079,Python,True,machine learning library language:python stars:>100,https://github.com/mdbloice/Augmentor,True
+adversarial-robustness-toolbox,4915,Python,True,machine learning library language:python stars:>100,https://github.com/Trusted-AI/adversarial-robustness-toolbox,True
+ManimML,2413,Python,True,machine learning library language:python stars:>100,https://github.com/helblazer811/ManimML,True
+pennylane,2378,Python,True,machine learning library language:python stars:>100,https://github.com/PennyLaneAI/pennylane,True
+sagemaker-python-sdk,2105,Python,True,machine learning library language:python stars:>100,https://github.com/aws/sagemaker-python-sdk,True
+evaluate,2040,Python,True,machine learning library language:python stars:>100,https://github.com/huggingface/evaluate,True
+privacy,1947,Python,True,machine learning library language:python stars:>100,https://github.com/tensorflow/privacy,True
+GeneticAlgorithmPython,1893,Python,True,machine learning library language:python stars:>100,https://github.com/ahmedfgad/GeneticAlgorithmPython,True
+audiomentations,1885,Python,True,machine learning library language:python stars:>100,https://github.com/iver56/audiomentations,True
+petastorm,1801,Python,True,machine learning library language:python stars:>100,https://github.com/uber/petastorm,True
+ml4a,1585,Python,True,machine learning library language:python stars:>100,https://github.com/ml4a/ml4a,True
+MLBox,1500,Python,True,machine learning library language:python stars:>100,https://github.com/AxeldeRomblay/MLBox,True
+data-validation,766,Python,True,machine learning library language:python stars:>100,https://github.com/tensorflow/data-validation,True
+InnerEye-DeepLearning,557,Python,True,machine learning library language:python stars:>100,https://github.com/microsoft/InnerEye-DeepLearning,True
+typedb-ml,550,Python,True,machine learning library language:python stars:>100,https://github.com/typedb/typedb-ml,True
+ares,485,Python,True,machine learning library language:python stars:>100,https://github.com/thu-ml/ares,True
+PyRCA,438,Python,True,machine learning library language:python stars:>100,https://github.com/salesforce/PyRCA,True
+modelstore,376,Python,True,machine learning library language:python stars:>100,https://github.com/operatorai/modelstore,True
+mlfz,357,Python,True,machine learning library language:python stars:>100,https://github.com/cosmic-cortex/mlfz,True
+PyMO,349,Python,True,machine learning library language:python stars:>100,https://github.com/omimo/PyMO,True
+hanzi_chaizi,339,Python,True,machine learning library language:python stars:>100,https://github.com/howl-anderson/hanzi_chaizi,True
+fuku-ml,281,Python,True,machine learning library language:python stars:>100,https://github.com/fukuball/fuku-ml,True
+mmeval,257,Python,True,machine learning library language:python stars:>100,https://github.com/open-mmlab/mmeval,True
+PyTouch,237,Python,True,machine learning library language:python stars:>100,https://github.com/facebookresearch/PyTouch,True
+NP_ML,222,Python,True,machine learning library language:python stars:>100,https://github.com/zhuzilin/NP_ML,True
+VerticaPy,220,Python,True,machine learning library language:python stars:>100,https://github.com/vertica/VerticaPy,True
+frouros,194,Python,True,machine learning library language:python stars:>100,https://github.com/IFCA-Advanced-Computing/frouros,True
+trident,180,Python,True,machine learning library language:python stars:>100,https://github.com/kakaobrain/trident,True
+quickai,162,Python,True,machine learning library language:python stars:>100,https://github.com/geekjr/quickai,True
+ml,141,Python,True,machine learning library language:python stars:>100,https://github.com/src-d/ml,True
+Etherscan-ML,139,Python,True,machine learning library language:python stars:>100,https://github.com/elyselam/Etherscan-ML,True
+raster4ml,123,Python,True,machine learning library language:python stars:>100,https://github.com/souravbhadra/raster4ml,True
+stacked_generalization,117,Python,True,machine learning library language:python stars:>100,https://github.com/fukatani/stacked_generalization,True
+pykernels,116,Python,True,machine learning library language:python stars:>100,https://github.com/gmum/pykernels,True
+MLBlocks,116,Python,True,machine learning library language:python stars:>100,https://github.com/MLBazaar/MLBlocks,True
+Cardea,115,Python,True,machine learning library language:python stars:>100,https://github.com/MLBazaar/Cardea,True
+pycapt,111,Python,True,machine learning library language:python stars:>100,https://github.com/aboutmydreams/pycapt,True
+ML-lib,109,Python,True,machine learning library language:python stars:>100,https://github.com/christopherjenness/ML-lib,True
+d2l-en,24100,Python,True,deep learning framework language:python stars:>100,https://github.com/d2l-ai/d2l-en,True
+ludwig,11215,Python,True,deep learning framework language:python stars:>100,https://github.com/ludwig-ai/ludwig,True
+chainer,5897,Python,True,deep learning framework language:python stars:>100,https://github.com/chainer/chainer,True
+MMdnn,5799,Python,True,deep learning framework language:python stars:>100,https://github.com/microsoft/MMdnn,True
+neon,3872,Python,True,deep learning framework language:python stars:>100,https://github.com/NervanaSystems/neon,True
+jittor,3099,Python,True,deep learning framework language:python stars:>100,https://github.com/Jittor/jittor,True
+raster-vision,2090,Python,True,deep learning framework language:python stars:>100,https://github.com/azavea/raster-vision,True
+PGPortfolio,1753,Python,True,deep learning framework language:python stars:>100,https://github.com/ZhengyaoJiang/PGPortfolio,True
+spikingjelly,1404,Python,True,deep learning framework language:python stars:>100,https://github.com/fangwei123456/spikingjelly,True
+torchdistill,1397,Python,True,deep learning framework language:python stars:>100,https://github.com/yoshitomo-matsubara/torchdistill,True
+pytorch_tabular,1396,Python,True,deep learning framework language:python stars:>100,https://github.com/manujosephv/pytorch_tabular,True
+SLM-Lab,1255,Python,True,deep learning framework language:python stars:>100,https://github.com/kengz/SLM-Lab,True
+Ensemble-Pytorch,1096,Python,True,deep learning framework language:python stars:>100,https://github.com/TorchEnsemble-Community/Ensemble-Pytorch,True
+TinyNeuralNetwork,762,Python,True,deep learning framework language:python stars:>100,https://github.com/alibaba/TinyNeuralNetwork,True
+hidet,656,Python,True,deep learning framework language:python stars:>100,https://github.com/hidet-org/hidet,True
+Neuraxle,608,Python,True,deep learning framework language:python stars:>100,https://github.com/Neuraxio/Neuraxle,True
+reaver,555,Python,True,deep learning framework language:python stars:>100,https://github.com/inoryy/reaver,True
+TensorLayerX,541,Python,True,deep learning framework language:python stars:>100,https://github.com/tensorlayer/TensorLayerX,True
+GazeML,522,Python,True,deep learning framework language:python stars:>100,https://github.com/swook/GazeML,True
+deer,485,Python,True,deep learning framework language:python stars:>100,https://github.com/VinF/deer,True
+warp-drive,465,Python,True,deep learning framework language:python stars:>100,https://github.com/salesforce/warp-drive,True
+sleap,437,Python,True,deep learning framework language:python stars:>100,https://github.com/talmolab/sleap,True
+framework-reproducibility,425,Python,True,deep learning framework language:python stars:>100,https://github.com/NVIDIA/framework-reproducibility,True
+deepy,423,Python,True,deep learning framework language:python stars:>100,https://github.com/zomux/deepy,True
+PokerRL,416,Python,True,deep learning framework language:python stars:>100,https://github.com/EricSteinberger/PokerRL,True
+huskarl,415,Python,True,deep learning framework language:python stars:>100,https://github.com/danaugrs/huskarl,True
+MIScnn,407,Python,True,deep learning framework language:python stars:>100,https://github.com/frankkramer-lab/MIScnn,True
+torchsat,393,Python,True,deep learning framework language:python stars:>100,https://github.com/sshuair/torchsat,True
+delft,389,Python,True,deep learning framework language:python stars:>100,https://github.com/kermitt2/delft,True
+model-optimization,1497,Python,True,ML toolkit language:python stars:>100,https://github.com/tensorflow/model-optimization,True
+DLTK,1430,Python,True,ML toolkit language:python stars:>100,https://github.com/DLTK/DLTK,True
+aequitas,696,Python,True,ML toolkit language:python stars:>100,https://github.com/dssg/aequitas,True
+zpy,304,Python,True,ML toolkit language:python stars:>100,https://github.com/ZumoLabs/zpy,True
+darkon,233,Python,True,ML toolkit language:python stars:>100,https://github.com/darkonhub/darkon,True
+matsciml,155,Python,True,ML toolkit language:python stars:>100,https://github.com/IntelLabs/matsciml,True
+temporai,103,Python,True,ML toolkit language:python stars:>100,https://github.com/vanderschaarlab/temporai,True
+ImageAI,8651,Python,True,AI library language:python stars:>100,https://github.com/OlafenwaMoses/ImageAI,True
+DeepPavlov,6738,Python,True,AI library language:python stars:>100,https://github.com/deeppavlov/DeepPavlov,True
+MeloTTS,4919,Python,True,AI library language:python stars:>100,https://github.com/myshell-ai/MeloTTS,True
+rl,2376,Python,True,AI library language:python stars:>100,https://github.com/pytorch/rl,True
+d6tflow,952,Python,True,data science library language:python stars:>100,https://github.com/d6t/d6tflow,True
+lale,334,Python,True,data science library language:python stars:>100,https://github.com/IBM/lale,True
+open-data-anonymizer,248,Python,True,data science library language:python stars:>100,https://github.com/ArtLabss/open-data-anonymizer,True
+graph-data-science-client,195,Python,True,data science library language:python stars:>100,https://github.com/neo4j/graph-data-science-client,True
+pydap,139,Python,True,data science library language:python stars:>100,https://github.com/pydap/pydap,True
+cf-python,128,Python,True,data science library language:python stars:>100,https://github.com/NCAS-CMS/cf-python,True

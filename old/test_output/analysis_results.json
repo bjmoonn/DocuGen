@@ -1,0 +1,21 @@
+{
+  "repo_name": "adversarial-robustness-toolbox",
+  "metrics": {
+    "completeness": {
+      "section_scores": {
+        "installation": 0.13,
+        "usage": 0.12200000000000003,
+        "api": 0.0,
+        "dependencies": 0.12200000000000003
+      },
+      "overall_score": 0.0935
+    }
+  },
+  "suggestions": [
+    "Add installation section - completely missing or inadequate",
+    "Add usage section - completely missing or inadequate",
+    "Add api section - completely missing or inadequate",
+    "Add dependencies section - completely missing or inadequate",
+    "Improve alignment between documentation and code examples"
+  ]
+}
