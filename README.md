@@ -1,30 +1,26 @@
-# DocuGen – Automated Documentation Generation for Machine Learning Papers
+# DocuGen – Automated Documentation Analysis & Enhancement
 Byeongjun Moon, 2024, [bj.moon@usc.edu](mailto:bj.moon@usc.edu)
-A machine learning-powered tool that analyzes GitHub repository documentation quality using state-of-the-art language models.
+
+A machine learning-powered tool that analyzes GitHub repository documentation quality and suggests improvements using state-of-the-art language models.
 
 ## Features
 
 - Analyzes README quality using DistilBERT for semantic understanding
 - Evaluates code-documentation alignment using CodeBERT
-- Generates enhanced documentation using DistilGPT2
-- Provides detailed section-by-section analysis
-- Suggests improvements based on best practices
+- Generates enhanced documentation using OPT-125m (optimized for Apple Silicon)
+- Provides detailed section-by-section analysis with quality scores
+- Suggests actionable improvements based on best practices
 - Web interface for easy interaction
 
 ## Project Structure
 
 ```
 src/
-├── app/                    # Web application components
-├── data/                   # Dataset and data handling
 ├── models/                 # Core ML models and analyzers
 │   ├── code_documentation_analyzer.py  # CodeBERT-based code analysis
-│   ├── documentation_analyzer.py       # Documentation quality analysis
-│   ├── quality_enhancer.py            # DistilGPT2-based enhancement
-│   ├── readme_quality_model.py        # DistilBERT-based quality scoring
-│   └── unified_scorer.py              # Combined scoring system
+│   ├── quality_enhancer.py            # OPT-125m-based enhancement
+│   ├── unified_scorer.py              # Combined scoring system
 ├── trainers/              # Model training scripts
-├── utils/                 # Utility functions
 └── main.py               # Application entry point
 ```
 
@@ -32,8 +28,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd [repo-name]
+git clone https://github.com/yourusername/docugen.git
+cd docugen
 ```
 
 2. Create and activate a virtual environment:
@@ -69,31 +65,41 @@ http://127.0.0.1:7862
 
 ## Models
 
-### DistilBERT Quality Model
-- Used for semantic analysis of README content
+### DistilBERT & CodeBERT
+- Used for semantic analysis of documentation content
+- Evaluates code-documentation alignment
+- Measures documentation completeness and quality
+- Analyzes docstrings and code comments
+
+### OPT-125m Enhancer
+- Lightweight model optimized for Apple Silicon
+- Generates contextual documentation improvements
+- Memory-efficient operation
+- Enhanced performance on M1/M2 chips
+
+### ReadmeQualityModel
+- Custom model for quality scoring
 - Fine-tuned on high-quality documentation examples
 - Evaluates clarity, completeness, and structure
-
-### CodeBERT Analyzer
-- Analyzes alignment between code and documentation
-- Evaluates docstrings and code comments
-- Measures documentation coverage
-
-### DistilGPT2 Enhancer
-- Generates improvement suggestions
-- Enhances existing documentation sections
-- Maintains project-specific context
+- Provides section-specific quality metrics
 
 ## Development
 
-### Training Models
+### Training the Quality Model
 
-1. Prepare training data:
-```bash
-python src/utils/data_preprocessor.py
+1. Add your GitHub token to .env
+
+2. Run the data collection script:
+```zsh
+python src/models/getting_data.py
 ```
 
-2. Train the README quality model:
-```bash
+3. Train the README quality model:
+```zsh
 python src/trainers/train_readme_model.py
+```
+
+4. Run the main script to start the web interface:
+```zsh
+python src/main.py
 ```
